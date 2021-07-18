@@ -51,7 +51,7 @@
 #define LCD_PINS_RS        28   // ST9720 CS
 #define LCD_PINS_ENABLE    17   // ST9720 DAT
 #define LCD_PINS_D4        30   // ST9720 CLK
-#define FIL_RUNOUT_PIN     29   // spare pin
+#define FIL_RUNOUT_PIN     29   // "magic" spare pad on the ender5 pro hidden next to electrolytic cap loaded onto header footprint. Solder a pin to it.
 
 // Alter timing for graphical display
 #ifndef ST7920_DELAY_1
