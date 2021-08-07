@@ -47,7 +47,8 @@
 #undef LCD_PINS_D7
 #undef FIL_RUNOUT_PIN
 
-#define LCD_SDSS           31   // Smart Controller SD card reader (rather than the Melzi)
+#define LCD_SDSS           -1   // Smart Controller SD card reader (rather than the Melzi)
+#define FAN_PIN            31   // using it now for the fan since we blew up pin 4
 #define LCD_PINS_RS        28   // ST9720 CS
 #define LCD_PINS_ENABLE    17   // ST9720 DAT
 #define LCD_PINS_D4        30   // ST9720 CLK
